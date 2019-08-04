@@ -1,5 +1,5 @@
 # Blender MTL File: 'None'
-# Material Count: 24
+# Material Count: 25
 
 newmtl Cement
 Ns 74.509804
@@ -10,8 +10,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd walls-diffuse.png
-map_Bump walls-normal.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/walls-diffuse.png
+map_Bump /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/walls-normal.png
 
 newmtl Cement_NONE
 Ns 74.509804
@@ -22,8 +22,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd walls-diffuse.png
-map_Bump walls-normal.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/walls-diffuse.png
+map_Bump /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/walls-normal.png
 
 newmtl Cooker
 Ns 837.254902
@@ -34,7 +34,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 3
-map_Kd Cooker-diffuse.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/Cooker-diffuse.png
 
 newmtl Cupboard
 Ns 74.509804
@@ -45,7 +45,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd Cupboard-diffuse.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/Cupboard-diffuse.png
 
 newmtl Door
 Ns 74.509804
@@ -56,7 +56,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd door-diffuse.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/door-diffuse.png
 
 newmtl Fridge
 Ns 74.509804
@@ -67,7 +67,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd Fridge.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/Fridge.png
 
 newmtl Glass
 Ns 429.411765
@@ -88,7 +88,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 3
-map_Kd Kettle-diffuse.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/Kettle-diffuse.png
 
 newmtl Knife
 Ns 92.156863
@@ -99,7 +99,17 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd Knife.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/Knife.png
+
+newmtl Material.001
+Ns 92.156863
+Ka 1.000000 1.000000 1.000000
+Kd 0.166333 0.099823 0.067424
+Ks 0.020833 0.020833 0.020833
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
 
 newmtl Metal
 Ns 837.254902
@@ -110,7 +120,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 3
-map_Kd metaltile1-osmic.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/metaltile1-osmic.png
 
 newmtl Metal_NONE
 Ns 837.254902
@@ -121,7 +131,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 3
-map_Kd metaltile1-osmic.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/metaltile1-osmic.png
 
 newmtl Plant
 Ns 211.764706
@@ -132,7 +142,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd Plant-diffuse.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/Plant-diffuse.png
 
 newmtl Plastic
 Ns 74.509804
@@ -163,7 +173,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd plastics.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/plastics.png
 
 newmtl Table_cloth
 Ns 92.156863
@@ -174,7 +184,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd Cloth-diffuse.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/Cloth-diffuse.png
 
 newmtl Tissue
 Ns 92.156863
@@ -205,7 +215,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd mahagony-light.jpg
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/mahagony-light.jpg
 
 newmtl Wood_mahagony-light.jpg
 Ns 74.509804
@@ -216,7 +226,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd mahagony-light.jpg
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/mahagony-light.jpg
 
 newmtl Wooden_floor_tiles
 Ns 74.509804
@@ -227,9 +237,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd diffuse.tga
-map_Bump normal.tga
-map_Ks specular.tga
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/diffuse.tga
+map_Bump /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/normal.tga
+map_Ks /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/specular.tga
 
 newmtl Worktop
 Ns 74.509804
@@ -240,7 +250,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd worktop-diffuse.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/worktop-diffuse.png
 
 newmtl Worktop_NONE
 Ns 74.509804
@@ -251,7 +261,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd worktop-diffuse.png
+map_Kd /home/blabla/Загрузки/Kitchen/Textures_new/Textures_newer/worktop-diffuse.png
 
 newmtl porcelain
 Ns 74.509804
