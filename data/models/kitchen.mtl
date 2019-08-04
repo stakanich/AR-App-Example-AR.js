@@ -1,5 +1,5 @@
 # Blender MTL File: 'None'
-# Material Count: 25
+# Material Count: 24
 
 newmtl Cement
 Ns 74.509804
@@ -76,7 +76,7 @@ Kd 0.640000 0.640000 0.640000
 Ks 0.800000 0.800000 0.800000
 Ke 0.000000 0.000000 0.000000
 Ni 1.500000
-d 0.7
+d 0.500000
 illum 7
 
 newmtl Kettle
@@ -100,16 +100,6 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd Knife.png
-
-newmtl Material.001
-Ns 92.156863
-Ka 1.000000 1.000000 1.000000
-Kd 0.166333 0.099823 0.067424
-Ks 0.020833 0.020833 0.020833
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
 
 newmtl Metal
 Ns 837.254902
@@ -238,8 +228,6 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd diffuse.tga
-map_Bump normal.tga
-map_Ks specular.tga
 
 newmtl Worktop
 Ns 74.509804
