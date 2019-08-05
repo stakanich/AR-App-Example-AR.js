@@ -15,7 +15,7 @@
                                const animatedMarker = document.querySelector("#shipMarker");
                                const aEntity = document.querySelector("#shipModel");
                                
-                               animatedMarker.addEventListener("click", (e) => {
+                               animatedMarker.addEventListener("click touch", (e) => {
                                  alert("ship was clicked")
                                  const intersectedElement = ev && ev.detail && ev.detail.intersectedEl;
                                  if (aEntity && intersectedElement === aEntity) {
