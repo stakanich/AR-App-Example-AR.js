@@ -10,7 +10,7 @@
 
 
 <script>
-  AFRAME.registerComponent("shipClicked",{
+  AFRAME.registerComponent("shipclicked",{
                              init: function(){
                                const animatedMarker = document.querySelector("#shipMarker");
                                const aEntity = document.querySelector("#shipModel");
@@ -39,7 +39,7 @@
            </a-entity>
         </a-marker>
       
-        <a-marker shipClicked emitevents="true" cursor="rayOrigin: mouse" id="shipMarker" type="pattern" preset="custom" url="https://raw.githubusercontent.com/stakanich/AR-App-Example-AR.js/master/data/patterns/pattern-ship.patt">
+        <a-marker shipclicked emitevents="true" cursor="rayOrigin: mouse" id="shipMarker" type="pattern" preset="custom" url="https://raw.githubusercontent.com/stakanich/AR-App-Example-AR.js/master/data/patterns/pattern-ship.patt">
           <a-entity id = 'shipPlane' 
                     geometry="primitive: plane; height 10; width 10;" 
                     material="src: url(./data/models/ship/shipText.png);"
