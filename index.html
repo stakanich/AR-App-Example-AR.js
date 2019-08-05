@@ -12,11 +12,11 @@
 <script>
   AFRAME.registerComponent("shipclicked",{
                              init: function(){
-                               alert("ship was clicked")
                                const animatedMarker = document.querySelector("#shipMarker");
                                const aEntity = document.querySelector("#shipModel");
                                
                                this.el.addEventListener("click", (e) => {
+                                 alert("ship was clicked")
                                  const intersectedElement = ev && ev.detail && ev.detail.intersectedEl;
                                  if (aEntity && intersectedElement === aEntity) {
                                    let shipPlane = document.querySelector("#shipPlane")
