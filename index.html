@@ -17,8 +17,7 @@
                                
                                animatedMarker.addEventListener('click', function(ev, target){
                                  const intersectedElement = ev && ev.detail && ev.detail.intersectedEl;
-                                 alert(intersectedElement.constructor.name)
-                                 alert(aEntity.constructor.name)
+                                 alert(intersectedElement.getAttribute('geometry'))
                                  if (aEntity && intersectedElement === aEntity) {
                                    let shipPlane = document.querySelector("#shipPlane")
                                    alert(shipPlane.getAttribute('visible'))
