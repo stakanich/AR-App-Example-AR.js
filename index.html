@@ -19,6 +19,7 @@
                                  const intersectedElement = ev && ev.detail && ev.detail.intersectedEl;
                                  if (aEntity && intersectedElement === aEntity) {
                                    let shipPlane = document.querySelector("#shipPlane")
+                                   alert(shipPlane.getAttribute('visible'))
                                    if (shipPlane.getAttribute('visible').localCompare('false')  == 0)
                                    {
                                      shipPlane.setAttribute('visible', 'true')
