@@ -19,15 +19,14 @@
                                  const intersectedElement = ev && ev.detail && ev.detail.intersectedEl;
                                  if (aEntity && intersectedElement === aEntity) {
                                    let shipPlane = document.querySelector("#shipPlane")
-                                   alert(shipPlane.getAttribute('visible').constructor.name)
-                                   if (shipPlane.getAttribute('visible').localCompare('false')  == 0)
+                                   if (shipPlane.getAttribute('visible') == false)
                                    {
-                                     shipPlane.setAttribute('visible', 'true')
+                                     shipPlane.setAttribute('visible', true)
                                      alert('true')
                                    }
                                    else
                                    {
-                                     shipPlane.setAttribute('visible', 'false')
+                                     shipPlane.setAttribute('visible', false)
                                    }
                                  }
                                })
