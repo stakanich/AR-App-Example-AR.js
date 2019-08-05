@@ -17,8 +17,10 @@
                                
                                animatedMarker.addEventListener('click', function(ev, target){
                                  const intersectedElement = ev && ev.detail && ev.detail.intersectedEl;
+                                 alert('clicked')
                                  if (aEntity) {
                                    let shipPlane = document.querySelector("#shipPlane")
+                                   alert('aentity is good')
                                    if (shipPlane.getAttribute('visible') == false)
                                    {
                                      shipPlane.object3D.visible = true;
