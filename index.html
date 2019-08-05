@@ -21,11 +21,11 @@
                                    let shipPlane = document.querySelector("#shipPlane")
                                    if (shipPlane.getAttribute('visible') == false)
                                    {
-                                     shipPlane.setAttribute('visible', true)
+                                     shipPlane.object3D.visible = true;
                                    }
                                    else
                                    {
-                                     shipPlane.setAttribute('visible', false)
+                                     shipPlane.object3D.visible = false;
                                    }
                                  }
                                })
