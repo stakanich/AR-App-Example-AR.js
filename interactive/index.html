@@ -14,13 +14,11 @@
                              init: function(){
                                
                                const aEntity = this.el
-                               const rootEntity = document.querySelector("#rootentity")
+                               const ascene = document.querySelector("#ascene")
                                
                                aEntity.addEventListener('click', function(){
-                                 alert('good')
                                  if (aEntity) {
-                                   alert('something')
-                                   rootEntity.emit("refreshclicked")
+                                   ascene.reload()
                                  }
                                })
                              }
@@ -29,7 +27,7 @@
 </script>
 
  <body stryle = 'margin : 0px; overflow: hidden;'>
-    <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false" renderer = "sortObjects: true;">
+    <a-scene id="ascene" embedded arjs="sourceType: webcam; debugUIEnabled: false" renderer = "sortObjects: true;">
         <a-marker type="pattern" preset="custom" url="https://raw.githubusercontent.com/stakanich/AR-App-Example-AR.js/master/data/patterns/pattern-monster.patt">
 
            <a-entity  id="rootentity" rotation="90 0 0"
