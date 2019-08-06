@@ -21,7 +21,7 @@
                                aEntity.addEventListener('click', function(){
                                  if (aEntity) {
                                   
-                                   rootEntity.emit("refreshclicked")
+                                   rootEntity.emit("refreshclicked", {}, true)
                                  }
                                })
                              }
@@ -35,7 +35,7 @@
         <a-marker type="pattern" preset="custom" url="https://raw.githubusercontent.com/stakanich/AR-App-Example-AR.js/master/data/patterns/pattern-monster.patt">
 
            <a-entity  id="rootentity" rotation="90 0 0"
-                     animation__click="property: visible; from: false; to: true; dur: 100; startEvents: refreshclicked">
+                     >
              
               <a-entity rotation="0 0 0"
                         animation="property: rotation; from: 0 0 315; to: 0 345 660; loop: true; dur: 25000"
@@ -43,6 +43,7 @@
                         
                         <a-entity position="-1 0 0" geometry="primitive: sphere; radius: 0.2"
                         material="metalness: 1; color: blue"
+                        animation__refresh="property: visible; from: false; to: true; dur: 100; startEvents: refreshclicked"
                         animation__click_color="property: components.material.material.color; dir: alternate; type: color; to: red; startEvents: click; dur: 3000"
                         animation__click_visible="property: visible; from: true; to: false; startEvents: click; dur: 100; delay: 3000">
                         </a-entity>
@@ -57,6 +58,7 @@
                         
                           <a-entity position="1.5 0 0" geometry="primitive: sphere; radius: 0.3"
                           material="metalness: 0; color: red"
+                          animation__refresh="property: visible; from: false; to: true; dur: 100; startEvents: refreshclicked"
                           animation__click_color="property: components.material.material.color; type: color; dir: alternate; to: green; startEvents: click; dur: 3000"
                           animation__click_visible="property: visible; from: true; to: false; startEvents: click; dur: 100; delay: 3000">
                           </a-entity>
@@ -73,12 +75,14 @@
                         
                           <a-entity position="1.5 0 0" geometry="primitive: sphere; radius: 0.3"
                           material="metalness: 0.3; color: yellow"
+                          animation__refresh="property: visible; from: false; to: true; dur: 100; startEvents: refreshclicked"
                           animation__click_color="property: components.material.material.color; type: color; dir: alternate; to: blue; startEvents: click; dur: 3000"
                           animation__click_visible="property: visible; from: true; to: false; startEvents: click; dur: 100; delay: 3000">
                           
                              <a-entity animation="property: rotation; from: 0 0 0; to: 0 355 0; loop: true; dur: 17000">
                                <a-entity position="0.5 0 0 " geometry="primitive: sphere; radius: 0.1"
                                  material="metalness: 0.3; color: green"
+                                 animation__refresh="property: visible; from: false; to: true; dur: 100; startEvents: refreshclicked"
                                  animation__click_color="property: components.material.material.color; type: color; dir: alternate; to: yellow; startEvents: click; dur: 3000"
                                  animation__click_visible="property: visible; from: true; to: false; startEvents: click; dur: 100; delay: 3000">
                                </a-entity>
@@ -87,6 +91,7 @@
                              <a-entity animation="property: rotation; from: 0 0 0; to: 0 355 0; loop: true; dur: 10000; dir: reverse">
                                <a-entity position="-0.7 0 0 " geometry="primitive: sphere; radius: 0.15"
                                  material="metalness: 0.7; color: blue"
+                                 animation__refresh="property: visible; from: false; to: true; dur: 100; startEvents: refreshclicked"
                                  animation__click_color="property: components.material.material.color; type: color; dir: alternate; to: green; startEvents: click; dur: 3000"
                                  animation__click_visible="property: visible; from: true; to: false; startEvents: click; dur: 100; delay: 3000">
                                </a-entity>
