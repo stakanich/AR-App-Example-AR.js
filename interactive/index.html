@@ -16,7 +16,7 @@
            <a-entity rotation="90 0 0">
              
               <a-entity rotation="0 0 0"
-                        animation="property: rotation; from: 0 0 315; to: 0 345 660; loop: true; dur: 5000"
+                        animation="property: rotation; from: 0 0 315; to: 0 345 660; loop: true; dur: 25000"
                         >
                         
                         <a-entity position="-1 0 0" geometry="primitive: sphere; radius: 0.2"
@@ -28,10 +28,10 @@
               </a-entity>
             
               <a-entity rotation="0 0 0"
-                        animation="property: rotation; from: 0 0 30; to: 0 0 385; loop: true; dur: 10000">
+                        animation="property: rotation; from: 0 0 30; to: 0 0 385; loop: true; dur: 20000">
                         
                         <a-entity rotation="0 0 0"
-                        animation="property: rotation; from: 0 0 30; to: 0 0 390; loop: true; dur: 10000">
+                        animation="property: rotation; from: 0 0 30; to: 0 0 390; loop: true; dur: 15000">
                         
                           <a-entity position="1.5 0 0" geometry="primitive: sphere; radius: 0.3"
                           material="metalness: 0; color: red"
@@ -44,7 +44,7 @@
               </a-entity>
             
               <a-entity rotation="0 0 0"
-                        animation="property: rotation; from: 0 0 0; to: 0 355 0; loop: true; dur: 9000">
+                        animation="property: rotation; from: 0 0 0; to: 0 355 0; loop: true; dur: 18000">
                         
                         <a-entity rotation="0 0 0"
                         animation="property: position; from: 0 0 0; to: 2 0 0; loop: true; dur: 3000; dir: alternate">
@@ -54,7 +54,7 @@
                           animation__click_color="components.material.material.color; type: color; to: blue; startEvents: click; dur: 3000"
                           animation__click_visible="property: visible; from: true; to: false; startEvents: click; dur: 100; delay: 3000">
                           
-                             <a-entity animation="property: rotation; from: 0 0 0; to: 0 355 0; loop: true; dur: 10000">
+                             <a-entity animation="property: rotation; from: 0 0 0; to: 0 355 0; loop: true; dur: 17000">
                                <a-entity position="0.5 0 0 " geometry="primitive: sphere; radius: 0.1"
                                  material="metalness: 0.3; color: green"
                                  animation__click_color="components.material.material.color; type: color; to: yellow; startEvents: click; dur: 3000"
@@ -62,10 +62,10 @@
                                </a-entity>
                              </a-entity>
                            
-                             <a-entity animation="property: rotation; from: 0 0 0; to: 0 355 0; loop: true; dur: 1000; dir: reverse">
+                             <a-entity animation="property: rotation; from: 0 0 0; to: 0 355 0; loop: true; dur: 10000; dir: reverse">
                                <a-entity position="-0.7 0 0 " geometry="primitive: sphere; radius: 0.15"
                                  material="metalness: 0.7; color: blue"
-                                 animation__click_color="components.material.material.color; type: color; to: green; startEvents: click; dur: 3000"
+                                 animation__click_color="property: components.material.material.color; type: color; to: green; startEvents: click; dur: 3000"
                                  animation__click_visible="property: visible; from: true; to: false; startEvents: click; dur: 100; delay: 3000">
                                </a-entity>
                              </a-entity>
