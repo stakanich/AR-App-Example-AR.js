@@ -20,10 +20,7 @@
                                
                                aEntity.addEventListener('click', function(){
                                  if (aEntity) {
-                                   #rootEntity.setAttribute('visible', false)
-                                   #setTimeout(function(){}, 1000)
-                                   #rootEntity.setAttribute('visible', true)
-                                   #setTimeout(function(){}, 1000)
+                                  
                                    rootEntity.emit("refreshclicked")
                                    alert(rootEntity.getAttribute('visible'))
                                  }
