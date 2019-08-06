@@ -19,7 +19,9 @@
                                aEntity.addEventListener('click', function(){
                                  
                                  if (aEntity) {
-                                   rootEntity.emit("refreshclicked")
+                                   #rootEntity.emit("refreshclicked")
+                                   rootEntity.object3D.visible=True
+                                   setTimeout(function(){}, 1000)
                                  }
                                })
                              }
