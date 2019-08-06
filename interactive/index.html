@@ -14,12 +14,12 @@
                              init: function(){
                                
                                const aEntity = this.el
-                               const ascene = document.querySelector("#ascene")
+                               const rootEntity = document.querySelector("#rootentity")
                                
                                aEntity.addEventListener('click', function(){
                                  if (aEntity) {
-                                   alert(ascene.getAttribute('id'))
-                                   ascene.reload()
+                                   alert(rootEntity.getAttribute('position'))
+                                   rootEntity.setAttribute('visible', true)
                                  }
                                })
                              }
