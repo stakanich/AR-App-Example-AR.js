@@ -18,6 +18,7 @@
                                
                                aEntity.addEventListener('click', function(){
                                  if (aEntity) {
+                                   alert(rootEntity.getAttribute('visible'))
                                    rootEntity.setAttribute('visible', true)
                                    setTimeout(function(){}, 2000)
                                  }
